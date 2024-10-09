@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <img class="speake" src="text.svg" alt="speak_png">
+    <div class="container">
+        <input id="input" type="text" onkeydown="if (event.keyCode === 13){speak()}" placeholder="Enter text" >
+        <button  onclick="speak()">speak</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

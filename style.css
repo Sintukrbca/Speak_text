@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: #333;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-left: 300px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#input {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;   
+    background-color: #ffffffb0;
+    color: #151414;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: rgb(93, 162, 241) 2px solid;
+    cursor: pointer;
+    box-shadow: inset 0 0 10px  0  #64e0ff, 0 0 5px 0 #11cbff, 0 0 10px 0 #ff6464, 0 0 20px 0 #11cbff, 0 0 200px 0 #ff6464, 0 0 20px 0 #11cbff, 0 0 5px 0 #ff6464, 0 0 6px 0 #11cbff, 0 0 7px 0 #ff6464, 0 0 8px 0 #11cbff, 0 0 9px 0 #ff6464, 0 0 10px 0 #11cbff;
+    transition: ease-out 0.5s;
+    outline: none;
+   }
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #ffffffb0;
+    color: #000000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: rgb(239, 66, 255) 2px solid;
+    box-shadow: inset 0 0 10px  0  #ffd064, 0 0 5px 0 #11cbff, 0 0 10px 0 #ff6464, 0 0 20px 0 #11cbff, 0 0 200px 0 #ff6464, 0 0 20px 0 #11cbff, 0 0 5px 0 #ff6464, 0 0 6px 0 #11cbff, 0 0 7px 0 #ff6464, 0 0 8px 0 #11cbff, 0 0 9px 0 #ff6464, 0 0 10px 0 #11cbff;
+    transition: ease-out 0.5s;
+    outline: none;
+}
+
+button:hover {
+    background-color: #11cbff;
+    color: #000000;
+    border: #11cbff 2px solid;
+
+}
+
+.speake{
+  width: 400px;
+  height: 300px;
+  margin-left: 390px;
+}
